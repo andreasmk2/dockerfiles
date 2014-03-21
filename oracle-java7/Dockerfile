@@ -1,8 +1,8 @@
 #
 # Oracle java 7 image
 #
-
-FROM ubuntu:precise
+FROM andreas/base-ubuntu
+MAINTAINER Andreas Bakurov andreasmk2@gmail.com
 
 # Prepare apt for custom ppa
 RUN apt-get update
